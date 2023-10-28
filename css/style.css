@@ -8978,7 +8978,7 @@ h1, h2, h3, h4, h5,
     transition: all 0.3s ease; }
     @media (max-width: 767.98px) {
       .project .overlay {
-        opacity: .2; } }
+        opacity: .6; } }
   .project .text {
     max-width: 80%;
     z-index: 1;
@@ -8989,11 +8989,13 @@ h1, h2, h3, h4, h5,
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
     .project .text h3 {
+      text-shadow: 2px 2px 4px #000000;
       font-size: 20px; }
       .project .text h3 a {
         color: #fff; }
     .project .text span {
       color: rgba(255, 255, 255, 0.8);
+      text-shadow: 2px 2px 4px #000000;
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 12px;
